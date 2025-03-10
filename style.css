@@ -1,0 +1,198 @@
+body {
+  background-color: #0D0D0D; 
+  height: 100vh;
+  margin: 0px;
+  overflow: hidden;
+  cursor: none; 
+  padding: 0 20px 100px 20px;
+}
+
+/* Custom Cursor */
+#custom-cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background: #878A83; 
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: width 0.3s ease, height 0.3s ease, background 0.3s ease; 
+}
+
+#gallery {
+  height: 90vh;
+  width: 100vw;
+  position: relative;
+}
+
+.block {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  z-index: 1;
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+  
+}
+
+.block:hover {
+  z-index: 2;
+  box-shadow: 0 0 20px #878A83; 
+}
+
+/* Image positions */
+.block:nth-child(1) {
+  top: 15%;
+  left: 20%;
+  background: url("https://creativacollective.com/wp-content/uploads/2025/03/sq-img-01.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block:nth-child(2) {
+  top: 10%;
+  left: 40%;
+  background: url("https://creativacollective.com/wp-content/uploads/2025/03/sq-img-02.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block:nth-child(3) {
+  top: 25%;
+  left: 60%;
+  background: url("https://creativacollective.com/wp-content/uploads/2025/03/sq-img-03.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block:nth-child(4) {
+  top: 30%;
+  left: 75%;
+  background: url("https://creativacollective.com/wp-content/uploads/2025/03/sq-img-04.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block:nth-child(5) {
+  top: 40%;
+  left: 10%;
+  background: url("https://creativacollective.com/wp-content/uploads/2025/03/sq-img-05.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block:nth-child(6) {
+  top: 45%;
+  left: 30%;
+  background: url("https://creativacollective.com/wp-content/uploads/2025/03/sq-img-06.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block:nth-child(7) {
+  top: 50%;
+  left: 50%;
+  background: url("https://creativacollective.com/wp-content/uploads/2025/03/sq-img-07.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block:nth-child(8) {
+  top: 55%;
+  left: 70%;
+  background: url("https://creativacollective.com/wp-content/uploads/2025/03/sq-img-08.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block:nth-child(9) {
+  top: 60%;
+  left: 85%;
+  background: url("https://creativacollective.com/wp-content/uploads/2025/03/sq-img-09.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block:nth-child(10) {
+  top: 20%;
+  left: 25%;
+  background: url("https://creativacollective.com/wp-content/uploads/2025/03/sq-img-10.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block:nth-child(11) {
+  top: 35%;
+  left: 45%;
+  background: url("https://creativacollective.com/wp-content/uploads/2025/03/sq-img-11.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block:nth-child(12) {
+  top: 40%;
+  left: 65%;
+  background: url("https://creativacollective.com/wp-content/uploads/2025/03/sq-img-12.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block:nth-child(13) {
+  top: 65%;
+  left: 15%;
+  background: url("https://creativacollective.com/wp-content/uploads/2025/03/sq-img-13.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block:nth-child(14) {
+  top: 70%;
+  left: 35%;
+  background: url("https://creativacollective.com/wp-content/uploads/2025/03/sq-img-14.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block:nth-child(15) {
+  top: 75%;
+  left: 55%;
+  background: url("https://creativacollective.com/wp-content/uploads/2025/03/sq-img-15.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block:nth-child(16) {
+  top: 80%;
+  left: 75%;
+  background: url("https://creativacollective.com/wp-content/uploads/2025/03/sq-img-16.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block:nth-child(17) {
+  top: 25%;
+  left: 80%;
+  background: url("https://creativacollective.com/wp-content/uploads/2025/03/sq-img-17.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block:nth-child(18) {
+  top: 45%;
+  left: 15%;
+  background: url("https://creativacollective.com/wp-content/uploads/2025/03/sq-img-18.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block:nth-child(19) {
+  top: 55%;
+  left: 40%;
+  background: url("https://creativacollective.com/wp-content/uploads/2025/03/sq-img-19.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block:nth-child(20) {
+  top: 85%;
+  left: 30%;
+  background: url("https://creativacollective.com/wp-content/uploads/2025/03/sq-img-20.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+/* Media Queries */
+@media (max-width: 1023px) { /* Tablet */
+  .block {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 767px) { /* Mobile */
+  .block {
+    width: 90px;
+    height: 90px;
+  }
+}
